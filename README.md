@@ -6,6 +6,7 @@ how to use?
 
 
 var slider = new sliddy("containerID",["imagesLocation/images1.jpg","imagesLocation/images2.jpg","imagesLocation/images3.jpg"...],false)
+
 slider.start()                                                                                                                              
 
 
