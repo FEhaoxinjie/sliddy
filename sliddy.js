@@ -95,7 +95,7 @@ this.moveit=function(){
 							 if(startp+movestep>endp){startp=endp;}
 							 else{startp=startp+movestep;}
 							  obj.style.marginLeft = startp+"px";
-							  requestAnimationFrame(callback);
+							  if(window.requestAnimationFrame){requestAnimationFrame(callback);}
 						  }
 						 if(window.requestAnimationFrame){intv2=requestAnimationFrame(callback);}
 						 else{intv2 = setInterval(callback,1000/60);}
